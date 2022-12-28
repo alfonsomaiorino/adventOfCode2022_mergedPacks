@@ -8,6 +8,7 @@ public class MainClass {
 
     public static void main(String[] args) throws IOException {
         System.out.println("Total priority: " + PriorityCalculator.calculatePriorityForPack(PriorityCalculator.parseInputFile()));
+        System.out.println("Total Priority Triplets: " + PriorityCalculator.calculatePriorityForTriplet(PriorityCalculator.parseInputFileForTriplet()));
     }
 
 }
